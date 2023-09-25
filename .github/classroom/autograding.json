@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Questao 1",
+      "setup": "export GOCACHE=/tmp/.cache",
+      "run": "GOCACHE=/tmp/.cache go test ./q1/q1.go ./q1/q1_test.go",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Questao 2",
+      "setup": "export GOCACHE=/tmp/.cache",
+      "run": "GOCACHE=/tmp/.cache go test ./q2/q2.go ./q2/q2_test.go",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Questao 3",
+      "setup": "export GOCACHE=/tmp/.cache",
+      "run": "GOCACHE=/tmp/.cache go test ./q3/q3.go ./q3/q3_test.go",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Questao 4",
+      "setup": "export GOCACHE=/tmp/.cache",
+      "run": "GOCACHE=/tmp/.cache go test ./q4/q4.go ./q4/q4_test.go",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Questao 5",
+      "setup": "export GOCACHE=/tmp/.cache",
+      "run": "GOCACHE=/tmp/.cache go test ./q5/q5.go ./q5/q5_test.go",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Questao Bonus",
+      "setup": "export GOCACHE=/tmp/.cache",
+      "run": "GOCACHE=/tmp/.cache go test ./bonus/bonus.go ./bonus/bonus_test.go",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    }
+  ]
+}
